@@ -29,18 +29,14 @@ img{
 }
 .wrapper{
     width: 1000px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     /*
         TODO:
         - Center up the page
         - Create a flexbox containerer for
         the major page sections
-    */
-}
-#site-header{
-    /*
-        TODO
-        - Flexbox property here
     */
 }
 #site-header div{
@@ -80,28 +76,15 @@ img{
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
-
-    /*
-        TODO:
-        - Flexbox - Create general spacing between nav links
-    */
 }
 #main-navigation #logo{
     margin-right: 400px;
-
-    /*
-        TODO:
-        - Flexbox - The logo needs to take up more space
-        that the other links
-    */
 }
 main{
     padding: 20px;
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
-    display: flex;
     margin: -50px 50px 0px 50px;
-    flex-direction: column;
     width: 600px;
 
     /*
@@ -114,8 +97,6 @@ aside{
     padding: 20px;
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
-    display: flex;
-    flex-direction: column;
     width: 200px;
     position: relative;
     /*
