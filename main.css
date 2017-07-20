@@ -99,6 +99,9 @@ aside{
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 200px;
     position: relative;
+    margin-left: 690px;
+    margin-top: -2325px;
+    height: 2285px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -154,7 +157,7 @@ article footer p{
     */
 }
 #site-footer{
-
+    
     background: #333;
     /*
         TODO:
