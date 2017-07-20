@@ -27,6 +27,18 @@ img{
     margin: 0;
     display: block;
 }
+footer p {
+  line-height: 1em;
+  margin: 50px 0 0 0;
+  padding: 25px 0 10px 0;
+  border-top: 1px solid #ccc;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  display: block;
+  color: #666;
+
+}
 .wrapper{
     width: 1000px;
     display: flex;
@@ -100,8 +112,8 @@ aside{
     width: 200px;
     position: relative;
     margin-left: 690px;
-    margin-top: -2325px;
-    height: 2285px;
+    margin-top: -2020px;
+    height: 1980px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -143,24 +155,18 @@ article time{
 }
 article img{
   float: right;
+  width: 280px;
     /*
         TODO:
         - Float article images to the right
         and match sizes and spacing to the mockup
     */
 }
-article footer p{
-    /*
-        TODO:
-        - Style the article footer
-        HINT: Look to the article header;
-    */
-}
 #site-footer{
-    
+    margin-top: 40px;
     background: #333;
-    /*
-        TODO:
-        - Style the site footer
-    */
+    color: #fff;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    width: 1000px
 }
