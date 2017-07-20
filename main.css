@@ -1,16 +1,3 @@
-/*
-
-FONTS:
-
-'Josefin Sans'
-'Noto Serif'
-'Dancing Script'
-
-COLORS:
-
-light tan: #eeebda
-
-*/
 body{
     font-family: 'Noto Serif', serif;
     line-height: 1.8;
@@ -27,29 +14,11 @@ img{
     margin: 0;
     display: block;
 }
-footer p {
-  line-height: 1em;
-  margin: 50px 0 0 0;
-  padding: 25px 0 10px 0;
-  border-top: 1px solid #ccc;
-  text-transform: uppercase;
-  font-size: 0.8em;
-  text-align: center;
-  display: block;
-  color: #666;
-
-}
 .wrapper{
     width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*
-        TODO:
-        - Center up the page
-        - Create a flexbox containerer for
-        the major page sections
-    */
 }
 #site-header div{
     text-align: center;
@@ -72,10 +41,7 @@ footer p {
     color: white;
     bottom: 20px;
     text-shadow: 0 5px 8px rgba( 0, 0, 0, 0.3 );
-    /*
-        TODO:
-        - Use the script font: 'Dancing Script' fot this text
-    */
+    font-family: 'Dancing Script';
 }
 #main-navigation{
     background: #444;
@@ -98,12 +64,6 @@ main{
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     margin: -50px 50px 0px 50px;
     width: 600px;
-
-    /*
-        TODO:
-        - Flexbox: Set the starting width of this element
-        - Use relative positioning to bump this upward
-    */
 }
 aside{
     padding: 20px;
@@ -114,11 +74,6 @@ aside{
     margin-left: 690px;
     margin-top: -2020px;
     height: 1980px;
-    /*
-        TODO:
-        - Flexbox: Set the starting width of this element
-        - Use relative positioning to bump this upward
-    */
 }
 aside h3{
     text-align: center;
@@ -156,11 +111,19 @@ article time{
 article img{
   float: right;
   width: 280px;
-    /*
-        TODO:
-        - Float article images to the right
-        and match sizes and spacing to the mockup
-    */
+}
+
+footer p {
+  line-height: 1em;
+  margin: 50px 0 0 0;
+  padding: 25px 0 10px 0;
+  border-top: 1px solid #ccc;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  display: block;
+  color: #666;
+
 }
 #site-footer{
     margin-top: 40px;
