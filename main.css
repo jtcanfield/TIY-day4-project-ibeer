@@ -55,6 +55,10 @@ img{
     text-transform: uppercase;
     padding: 10px 20px;
 }
+#main-navigation a:hover{
+  background-color: white;
+  color: black;
+}
 #main-navigation #logo{
     margin-right: 400px;
 }
