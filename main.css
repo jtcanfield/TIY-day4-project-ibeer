@@ -54,10 +54,22 @@ img{
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
+    animation-name: logoanimationrevert;
+    animation-duration: 1s;
 }
 #main-navigation a:hover{
   background-color: white;
   color: black;
+  animation-name: logoanimation;
+  animation-duration: 2s;
+}
+@keyframes logoanimation {
+  from {background-color: rgb(69,69,69); color: white;}
+  to {background-color: white; color: black;}
+}
+@keyframes logoanimationrevert {
+  from {background-color: white; color: black;}
+  to {background-color: rgb(69,69,69); color: white;}
 }
 #main-navigation #logo{
     margin-right: 400px;
@@ -136,4 +148,11 @@ footer p {
     padding: 20px 0px 20px 0px;
     text-align: center;
     width: 1000px
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+html{
+  animation: fadein 3s;
 }
